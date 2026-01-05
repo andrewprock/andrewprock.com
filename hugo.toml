@@ -2,7 +2,7 @@
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Andrew Prock"
+title = "ACH PROCK"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 theme = 'lynx'
@@ -12,12 +12,12 @@ disableKinds = ["taxonomy", "term"]
 
 [params.author]
   # name = "Your name here"
-  # headline = "An awesome person"
+  headline = "Owner-operated residential rental property business collecting rent and managing rental property."
   # image = "img/author.jpg"  # path relative to static directory
 
   links = [
-    { email = "mailto:prock@cs.wisc.edu" },
-    { pokerstove = { href = "http://www.pokerstove.com/" }},
+    { email = "mailto:achprocllc@andrewprock.com" },
+    #{ pokerstove = { href = "http://www.pokerstove.com/" }},
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { bandcamp = "https://username.bandcamp.com" },
