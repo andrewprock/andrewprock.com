@@ -47,7 +47,7 @@ jobs:
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
 
-      # 5. Setup Pages (required by deploy)
+      # 5. Setup Pages
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
@@ -59,9 +59,9 @@ jobs:
         run: |
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      # 7. Upload artifact for Pages deployment
+      # 7. Upload artifact for Pages deployment (v2 now uses non-deprecated artifact action)
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
 
